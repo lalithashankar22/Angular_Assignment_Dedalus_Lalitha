@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <link href="second.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="header">
+            <div id="title">ABC Inc </div>
+            <div id="menu">
+                <ul>
+                    <li> Home</li>
+                    <li> Projects</li>
+                    <li> Clients </li>
+                    <li> Products</li>
+                    <li> Reach us</li>
+                </ul>
+            </div>
+            <div id="social-media">
+                <ul >
+                    <li class="icon"><img src="images/fb.jpg" alt="Facebook" class="SM-icon" onclick="window.location.href='https://www.facebook.com/'"></li>
+                    <li class="icon"><a href="https://twitter.com/i/flow/login"><img src="images/twitter.jpg" alt="Twitter" class="SM-icon"></li></a>
+                    <li class="icon"><img src="images/insta.jpg" alt="Insta" class="SM-icon" onclick="location.href='https://www.instagram.com/accounts/login/'"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="slide-area">
+            <div id="slide-show">
+                <img src="image/first.jpg" id="img1">
+                <img src="images/left.png" id="left-icon" class="icon" onclick="changeImage('left')">
+                <img src="images/right.png" id="right-icon" class="icon" onclick="changeImage('right')">
+            </div>
+        </div>
+        <img src="images/up.jpg" id="up-down-icon" class="icon" onclick="fn_open_wrap()">
+      <div id="service-wrapper">
+ <P>UI</P>
+      </div>
+      <div id="footer">
+        &copy; all copyrights reserved, ABC inc 2023
+    </div>
+    </body>
+    <script src="data.js"></script>
+    <link href="end.css" rel="stylesheet">
+</html>
