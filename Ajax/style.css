@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(240, 198, 235) ;
+}
+h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(43, 121, 139);
+    background-color: aliceblue;
+}
+
+#quotes-for-the-day ,#author-box
+{
+    margin-top: 50px;
+    margin-left: 20%;
+    width: 60%;
+    overflow: hidden;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 10px gray;
+    font-family: courier;
+    color: darkblue;
+    padding: 30px;
+}
+
+#quotes-for-the-day b{
+    float: right;
+}
+
+#author-result{
+    width: 100%;
+    overflow: hidden;
+}
+input[type="text"]{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 3px solid darkblue;
+    margin: 5px;
+    color: rgb(163, 10, 71);
+}
+
+.author-name{
+    border: 2px solid lightgray;
+    background-color: lightblue;
+    color: rgb(50, 49, 49);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+    float: left;
+}
