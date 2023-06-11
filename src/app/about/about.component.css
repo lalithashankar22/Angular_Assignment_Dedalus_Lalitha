@@ -1,0 +1,16 @@
+.content{
+    background-color: aliceblue;
+    margin-left: 25px;
+    padding: 20px;
+    height: 150px;
+    width: 325px;
+}
+.content p{
+    text-align: left;
+}
+.main-div{
+    
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block;
+}

@@ -1,0 +1,13 @@
+.footer{
+    background-color: white;
+    margin-left: 25px;
+    margin-right: 32px;
+    padding:10px 20px 20px 20px;
+}
+#p1{
+float: left;
+}
+#p2{
+float: right;
+color: rgb(90, 243, 34);
+}

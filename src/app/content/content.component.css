@@ -1,0 +1,46 @@
+.main-content{
+    position: relative;
+    background-color: aliceblue;
+    margin-top: 20PX;
+    margin-left: 25PX;
+    margin-right:37px;
+}
+.sub-1{
+    display: inline-block;
+    text-align: left;
+    padding: 20px;
+    width: 63%;
+}
+.sub-1 h2{
+    font-size: x-large;
+}
+.navigation{
+    position: absolute;
+    display: inline-block;
+    padding: 20px;
+    width: 30%;
+}
+.navigation h2{
+    text-align: left;
+    font-weight: bold;
+}
+.nav{
+
+    background-color: rgba(164, 157, 161, 0.804);
+}
+.nav p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    height: 25px;
+    padding: 10px;
+}
+.nav span{
+    border: 1px solid;
+    height: 20px;
+    width: 20px;
+    background-color: #959393;
+    border-radius: 50%;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+}
