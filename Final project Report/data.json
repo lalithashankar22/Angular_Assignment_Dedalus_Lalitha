@@ -51,6 +51,72 @@
       "empid": 123,
       "type": "user",
       "id": 8
+    },
+    {
+      "email": "alex@gmail.com",
+      "password": "$2a$10$zfa21aPnwGX.JDWTMhbvLOeEH90nX8OOlSNspRrhQlV.0Wp.dZyMW",
+      "firstname": "Alex",
+      "lastname": "Pandian",
+      "type": "user",
+      "id": 9
+    },
+    {
+      "email": "jacky@gmail.com",
+      "password": "$2a$10$31TklHdo2zsCmyTH27JsDuL6Ey6VFJKus6Xw0k9bK3v7l.vwtQ7HC",
+      "firstname": "Jacky",
+      "lastname": "Pandian",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "coco@gmail.com",
+      "password": "$2a$10$TXAd4t7TrIK22Dg9p4Njpetg052SmFV48q2M1cHjj4Fpt3ACzYIZe",
+      "firstname": "coco",
+      "lastname": "nut",
+      "type": "admin",
+      "id": 11
+    },
+    {
+      "email": "jokey@gmail.com",
+      "password": "$2a$10$PigCaeC39hx1atpE4FkaKuO6B/x4ScjsNgWQpMnlu3OUqJ6P2BbXa",
+      "firstname": "Jacky",
+      "lastname": "Pandian",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "user2@gmail.com",
+      "password": "$2a$10$lvJPh6MgWR.nj4oCDs02ZuGiIiSePJ0DI2oZEPHPrzt8DwVi4/cXG",
+      "firstname": "User2",
+      "lastname": "user2",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "lolo@gmail.com",
+      "password": "$2a$10$JArcoKNyAqNyehnpAZoQSOZgJz8yTzeumr0V811rtt0X.X.ey25kS",
+      "firstname": "lolo",
+      "lastname": "lolo",
+      "type": "user",
+      "id": 14
+    },
+    {
+      "email": "fish@gmail.com",
+      "password": "$2a$10$Cbvk2F/wD3TYxvjfsFFx1.aIZy502CVorN0iimPGpWIX4LHoCjIqO",
+      "firstname": "fish",
+      "lastname": "fish",
+      "type": "user",
+      "empid": "125",
+      "id": 15
+    },
+    {
+      "email": "user5@gmail.com",
+      "password": "$2a$10$H5KKjHydGDBB4GiHa5Yeh.ovXz.9ciJUG1SECfB6dTBH2gEpRnZxK",
+      "firstname": "user5",
+      "lastname": "user5",
+      "type": "user",
+      "empid": "126",
+      "id": 16
     }
   ],
   "leavereq": [
@@ -133,6 +199,22 @@
       "reason": "This is a kind request regarding my leave On 05/02/2020 due to personal work, I won’t be able to come to the work on that day.  So please treat this email as my leave request and kindly give your approval to take leave for one day.",
       "staus": "Approved",
       "id": 10
+    },
+    {
+      "empid": null,
+      "name": "lolo",
+      "details": "2023-06-02",
+      "reason": "testacacsd",
+      "staus": "Pending",
+      "id": 11
+    },
+    {
+      "empid": 125,
+      "name": "fish",
+      "details": "2023-06-07",
+      "reason": "testwe",
+      "staus": "Approved",
+      "id": 12
     }
   ]
 }
